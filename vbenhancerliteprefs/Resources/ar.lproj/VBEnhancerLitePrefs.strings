@@ -1,0 +1,49 @@
+// VBEnhancer Settings English Copyrights 2014, iMokhles. All rights reserved
+
+// Personal Options
+
+"Personal Options" = "خيارات شخصية";
+"Read Mark" = "تم القرأة";
+"disable 24H restriction" = "تعطيل قيد ال ٢٤ ساعة";
+"Online Status" = "حالتك الشخصية";
+"This options let you hide your read mark ( don't show that you read messages ) also you can disable/enable LastSeen option without waiting 24H also ( Online Status option let you toggle your online status without opening your application ) no more settings then toggle your status ;)" = "هذه الخيارات تتيح لك اولا: ان لا يحصل الطرف الاخر على اشعار بقرأتك الرساله٫ ثانيا: تعطيل قيد ال٢٤ ساعة عند تغير حالتك من اونلاين الى اوفلاين٫ ثالثا: تستطيع تعطيل او تفعيل حالتك من خلال اعدادات الاداة دون لاحاجه لتفعيلها من داخل التطبيق٫";
+
+// Badges Options
+
+"Badges Options" = "خيارات الوسوم";
+"Stickers Badges" = "وسوم الملصقات";
+"This options let you hide your badges in stickers cell" = "تتيح لك هذه الميزة بتعطيل وسوم الملصقات التى تظهر داخل اعدادات تطبيق الفايبر";
+
+// Notify Options
+
+"Notify Options" = "خيارات الاشعارات";
+"Vibrate" = "الاهتزاز";
+"Sounds" = "الاصوات";
+"Location" = "الموقع";
+"This options let you disable/enable Vibration, Sounds and Location inside application" = "تتسح لك هذه المميزات تعطيل او تفعيل الاهتزاز او الصوت او تحديد الموقع داخل التطبيق";
+
+// Advanced Options
+"Keyboard Options" = "خيارات لوحة المفاتيح";
+"Fix Keyboard Appearance" = "إصلاح تلوين لوحة المفاتيح";
+"Advanced Options" = "إعدادات متقدمة";
+"This options let you change keyboard colors (dark or white) change keyboard keys colors (white or blue)" = "تتيح لك هذه الخيارات تغير لون لوحة المفاتيح من اللون الابيض الاعتيادي الى الاسود و ايضا تغيير لون ازرار لوحة المفاتيح الى اللون الازرق بدل من الارصاصي و";
+"This options let you disable statusbar inside applciation and disable rotate inside application and let you either sending unlimted media at once." = "تتيح لك اخفاء شريط الحالة العلوي و ايضا ارسال وسائط كا الصور و الفيديو اكتر من ١٠ في ان واحد";
+"White/Dark Keyboard" = "لوحة مفاتيح ابيض او اسود";
+"Blue Keyboard Keys" = "احرف لوحه المفاتيح بالازرق";
+"Hide StatusBar" = "إخفاء شريط الحالة";
+"Disable Rotate" = "إيقاف الدوران";
+"Unlimted Media" = "وسائط بعدد لا محدود";
+
+// Tweak Info
+
+"Tweak info" = "معلومات الاداة";
+"Tweak's info and others" = "معلومات حول الاداة";
+"Version:" = "الإصدار:";
+
+// Authors Info
+
+"Developer" = "المطور";
+"Support me if you would like to do it ;)" = "قم بدعمي اذا اردت ذلك : شكرا";
+"Follow @iMokhles" = "@iMokhles تابعني بالتويتر";
+"Visit iMokhles Site" = "قم بزيارة موقعي";
+"Donate to iMokhles" = "iMokhles تبرع الـ";
