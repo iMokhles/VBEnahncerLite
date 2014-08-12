@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "Fixing Permission! ****VBEnhancerLite****"
+
+chmod 644 /Library/PreferenceBundles/VBEnhancerLitePrefs.bundle/VBEnhancerLiteHeader.png
+chmod 644 /Library/PreferenceBundles/VBEnhancerLitePrefs.bundle/VBEnhancerLiteHeader@2x.png
+
+echo "Permission Fixed! ****VBEnhancerLite****"
+echo "Install Succeed, Thanks for downloading ****VBEnhancerLite****"
+
+exit 0

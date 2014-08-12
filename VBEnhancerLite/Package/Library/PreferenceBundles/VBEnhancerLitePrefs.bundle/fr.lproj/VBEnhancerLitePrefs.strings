@@ -1,0 +1,50 @@
+// VBEnhancer Settings English Copyrights 2014, iMokhles. All rights reserved
+
+// Personal Options
+
+"Personal Options" = "Personal Options";
+"Read Mark" = "Read Mark";
+"disable 24H restriction" = "disable 24H restriction";
+"Online Status" = "Online Status";
+"This options let you hide your read mark ( don't show that you read messages ) also you can disable/enable LastSeen option without waiting 24H also ( Online Status option let you toggle your online status without opening your application ) no more settings then toggle your status ;)" = "This options let you hide your read mark ( don't show that you read messages ) also you can disable/enable LastSeen option without waiting 24H also ( Online Status option let you toggle your online status without opening your application ) no more settings then toggle your status ;)";
+
+// Badges Options
+
+"Badges Options" = "Badges Options";
+"Stickers Badges" = "Stickers Badges";
+"This options let you hide your badges in stickers cell" = "This options let you hide your badges in stickers cell";
+
+// Notify Options
+
+"Notify Options" = "Notify Options";
+"Vibrate" = "Vibrate";
+"Sounds" = "Sounds";
+"Location" = "Location";
+"This options let you disable/enable Vibration, Sounds and Location inside application" = "This options let you disable/enable Vibrate, Sounds and Location inside application";
+
+// Advanced Options
+"Keyboard Options" = "Keyboard Options";
+"Fix Keyboard Appearance" = "Fix Keyboard Appearance";
+"Advanced Options" = "Advanced Options";
+"This options let you change keyboard colors (dark or white) change keyboard keys colors (white or blue)" = "This options let you change keyboard colors (dark or white) change keyboard keys colors (white or blue)";
+"This options let you disable statusbar inside applciation and disable rotate inside application and let you either sending unlimted media at once." = "This options let you disable statusbar inside applciation and disable rotate inside application and let you either sending unlimted media at once.";
+"White/Dark Keyboard" = "White/Dark Keyboard";
+"Blue Keyboard Keys" = "Blue Keyboard Keys";
+"Hide StatusBar" = "Hide StatusBar";
+"Disable Rotate" = "Disable Rotate";
+"Unlimted Media" = "Unlimted Media";
+
+// Tweak Info
+
+"Tweak info" = "Tweak info";
+"Tweak's info and others" = "Tweak's Licenses and others";
+"Version:" = "Version:";
+
+
+// Authors Info
+
+"Developer" = "Developer";
+"Support me if you would like to do it ;)" = "Support me if you would like to do it ;)";
+"Follow @iMokhles" = "Follow @iMokhles";
+"Visit iMokhles Site" = "Visit imokhles Site";
+"Donate to iMokhles" = "Donate to iMokhles";

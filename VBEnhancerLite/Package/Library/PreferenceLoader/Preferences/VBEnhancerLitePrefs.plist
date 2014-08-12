@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = VBEnhancerLitePrefs;
+		cell = PSLinkCell;
+		detail = "VBEnhancerLitePrefsListController";
+		icon = "VBEnhancerLitePrefs.png";
+		isController = 1;
+		label = "VBEnhancer-Lite";
+	};
+}

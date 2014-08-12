@@ -1,0 +1,17 @@
+Package: com.imokhles.VBEnhancerLite
+Name: VBEnhancer-Lite
+Version: 1.0-2
+Description: 
+Section: System
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: com.f0u4d.vibrator, com.orestismokas.viberonlinestatusunlimit, com.f0u4d.vibratorpro
+Replaces: com.imokhles.VBEnhancer
+Priority: optional
+Architecture: iphoneos-arm
+Author: iMokhles
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: 
+Icon: file:///Library/PreferenceBundles/VBEnhancerLitePrefs.bundle/VBEnhancerLitePrefs@2x.png
+

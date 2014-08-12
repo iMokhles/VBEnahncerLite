@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>VBEnhancerLiteBannerCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Personal Options</string>
+			<key>footerText</key>
+			<string>This options let you hide your read mark ( don&apos;t show that you read messages ) also you can disable/enable LastSeen option without waiting 24H also ( Online Status option let you toggle your online status without opening your application ) no more settings then toggle your status ;)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.imokhles.vbenhancerliteprefs</string>
+			<key>key</key>
+			<string>RMark</string>
+			<key>label</key>
+			<string>Read Mark</string>
+			<key>PostNotification</key>
+			<string>com.imokhles.vbenhancerliteprefs.preferences-changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.imokhles.vbenhancerliteprefs</string>
+			<key>key</key>
+			<string>LSeen</string>
+			<key>label</key>
+			<string>disable 24H restriction</string>
+			<key>PostNotification</key>
+			<string>com.imokhles.vbenhancerliteprefs.preferences-changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.imokhles.vbenhancerliteprefs</string>
+			<key>key</key>
+			<string>LSeenEnable</string>
+			<key>label</key>
+			<string>Online Status</string>
+			<key>PostNotification</key>
+			<string>com.imokhles.vbenhancerliteprefs.preferences-changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Badges Options</string>
+			<key>footerText</key>
+			<string>This options let you hide your badges in stickers cell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.imokhles.vbenhancerliteprefs</string>
+			<key>key</key>
+			<string>STBadge</string>
+			<key>label</key>
+			<string>Stickers Badges</string>
+			<key>PostNotification</key>
+			<string>com.imokhles.vbenhancerliteprefs.preferences-changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Notify Options</string>
+			<key>footerText</key>
+			<string>This options let you disable/enable Vibration, Sounds and Location inside application</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.imokhles.vbenhancerliteprefs</string>
+			<key>key</key>
+			<string>VibrateID</string>
+			<key>label</key>
+			<string>Vibrate</string>
+			<key>PostNotification</key>
+			<string>com.imokhles.vbenhancerliteprefs.preferences-changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.imokhles.vbenhancerliteprefs</string>
+			<key>key</key>
+			<string>SoundID</string>
+			<key>label</key>
+			<string>Sounds</string>
+			<key>PostNotification</key>
+			<string>com.imokhles.vbenhancerliteprefs.preferences-changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.imokhles.vbenhancerliteprefs</string>
+			<key>key</key>
+			<string>NOLocate</string>
+			<key>label</key>
+			<string>Location</string>
+			<key>PostNotification</key>
+			<string>com.imokhles.vbenhancerliteprefs.preferences-changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Keyboard Options</string>
+			<key>footerText</key>
+			<string>This options let you change keyboard colors (dark or white) change keyboard keys colors (white or blue)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.imokhles.vbenhancerliteprefs</string>
+			<key>key</key>
+			<string>DarkKB</string>
+			<key>label</key>
+			<string>White/Dark Keyboard</string>
+			<key>PostNotification</key>
+			<string>com.imokhles.vbenhancerliteprefs.preferences-changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.imokhles.vbenhancerliteprefs</string>
+			<key>key</key>
+			<string>BlueKB</string>
+			<key>label</key>
+			<string>Blue Keyboard Keys</string>
+			<key>PostNotification</key>
+			<string>com.imokhles.vbenhancerliteprefs.preferences-changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.imokhles.vbenhancerliteprefs</string>
+			<key>key</key>
+			<string>ApKBColor</string>
+			<key>label</key>
+			<string>Fix Keyboard Appearance</string>
+			<key>PostNotification</key>
+			<string>com.imokhles.vbenhancerliteprefs.preferences-changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Advanced Options</string>
+			<key>footerText</key>
+			<string>This options let you disable statusbar inside applciation and disable rotate inside application and let you either sending unlimted media at once.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.imokhles.vbenhancerliteprefs</string>
+			<key>key</key>
+			<string>NStatus</string>
+			<key>label</key>
+			<string>Hide StatusBar</string>
+			<key>PostNotification</key>
+			<string>com.imokhles.vbenhancerliteprefs.preferences-changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.imokhles.vbenhancerliteprefs</string>
+			<key>key</key>
+			<string>ARotate</string>
+			<key>label</key>
+			<string>Disable Rotate</string>
+			<key>PostNotification</key>
+			<string>com.imokhles.vbenhancerliteprefs.preferences-changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.imokhles.vbenhancerliteprefs</string>
+			<key>key</key>
+			<string>MPhotos</string>
+			<key>label</key>
+			<string>Unlimted Media</string>
+			<key>PostNotification</key>
+			<string>com.imokhles.vbenhancerliteprefs.preferences-changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Tweak info</string>
+			<key>footerText</key>
+			<string>Tweak&apos;s info and others</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSTitleValueCell</string>
+			<key>get</key>
+			<string>versionValue:</string>
+			<key>label</key>
+			<string>Version:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Developer</string>
+			<key>footerText</key>
+			<string>Support me if you would like to do it ;)</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>followOnTwitter:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>Twitter.png</string>
+			<key>label</key>
+			<string>Follow @iMokhles</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>visitWebSite:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>Site.png</string>
+			<key>label</key>
+			<string>Visit iMokhles Site</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>makeDonation:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>Donate.png</string>
+			<key>label</key>
+			<string>Donate to iMokhles</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>VBEnhancer-Lite</string>
+</dict>
+</plist>
