@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		438B230A198823E800573A52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438B2309198823E800573A52 /* Foundation.framework */; };
+		438B2315198823E800573A52 /* VBEnhancerLite.mm in Sources */ = {isa = PBXBuildFile; fileRef = 438B2314198823E800573A52 /* VBEnhancerLite.mm */; };
+		438B23251988244700573A52 /* DecFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 438B23241988244700573A52 /* DecFile.h */; };
+		438B23271988534100573A52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438B23261988534100573A52 /* UIKit.framework */; };
+		438B23291988535000573A52 /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 438B23281988535000573A52 /* libsubstrate.dylib */; };
+		438B232B198853B600573A52 /* libMobileGestalt.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 438B232A198853B600573A52 /* libMobileGestalt.dylib */; };
+		43ABC11A198F99A40093C543 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ABC119198F99A40093C543 /* GameKit.framework */; };
+		43ABC11C198F99A90093C543 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ABC11B198F99A90093C543 /* StoreKit.framework */; };
+		43ABC11E198F99AD0093C543 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ABC11D198F99AD0093C543 /* Social.framework */; };
+		43ABC120198F99B20093C543 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ABC11F198F99B20093C543 /* AdSupport.framework */; };
+		43ABC122198F99B60093C543 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ABC121198F99B60093C543 /* iAd.framework */; };
+		43ABC124198F99BC0093C543 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ABC123198F99BC0093C543 /* SystemConfiguration.framework */; };
+		43ABC126198F99C10093C543 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ABC125198F99C10093C543 /* CFNetwork.framework */; };
+		43ABC128198F99C60093C543 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ABC127198F99C60093C543 /* Accounts.framework */; };
+		43ABC12A198F99CC0093C543 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ABC129198F99CC0093C543 /* QuartzCore.framework */; };
+		43ABC12C198F99D20093C543 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ABC12B198F99D20093C543 /* AVFoundation.framework */; };
+		43ABC12E198F99DB0093C543 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ABC12D198F99DB0093C543 /* CoreAudio.framework */; };
+		43ABC130198F99E80093C543 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ABC12F198F99E80093C543 /* AudioToolbox.framework */; };
+		43ABC132198F99EF0093C543 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ABC131198F99EF0093C543 /* MessageUI.framework */; };
+		43ABC134198F99F60093C543 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ABC133198F99F60093C543 /* CoreData.framework */; };
+		43ABC136198F99FA0093C543 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ABC135198F99FA0093C543 /* CoreMedia.framework */; };
+		43ABC138198F9A040093C543 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ABC137198F9A040093C543 /* libsqlite3.dylib */; };
+		43ABC13A198F9A140093C543 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ABC139198F9A140093C543 /* libz.dylib */; };
+		43ABC13C198F9A190093C543 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ABC13B198F9A190093C543 /* CoreTelephony.framework */; };
+		43ABC13E198F9A200093C543 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ABC13D198F9A200093C543 /* CoreText.framework */; };
+		43ABC140198F9A290093C543 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ABC13F198F9A290093C543 /* CoreGraphics.framework */; };
+		43ABC18E198FBD8F0093C543 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 43ABC18C198FBD8F0093C543 /* MBProgressHUD.h */; };
+		43ABC18F198FBD8F0093C543 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ABC18D198FBD8F0093C543 /* MBProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		438B2306198823E800573A52 /* VBEnhancerLite.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = VBEnhancerLite.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		438B2309198823E800573A52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		438B230E198823E800573A52 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		438B230F198823E800573A52 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		438B2311198823E800573A52 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		438B2312198823E800573A52 /* VBEnhancerLite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VBEnhancerLite-Prefix.pch"; sourceTree = "<group>"; };
+		438B2313198823E800573A52 /* VBEnhancerLite.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = VBEnhancerLite.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		438B2314198823E800573A52 /* VBEnhancerLite.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = VBEnhancerLite.mm; sourceTree = "<group>"; };
+		438B2319198823E800573A52 /* VBEnhancerLite.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = VBEnhancerLite.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/VBEnhancerLite.plist; sourceTree = "<group>"; };
+		438B23241988244700573A52 /* DecFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecFile.h; sourceTree = "<group>"; };
+		438B23261988534100573A52 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		438B23281988535000573A52 /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = ../../../../../opt/iOSOpenDev/lib/libsubstrate.dylib; sourceTree = "<group>"; };
+		438B232A198853B600573A52 /* libMobileGestalt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libMobileGestalt.dylib; path = usr/lib/libMobileGestalt.dylib; sourceTree = SDKROOT; };
+		43ABC119198F99A40093C543 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		43ABC11B198F99A90093C543 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		43ABC11D198F99AD0093C543 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		43ABC11F198F99B20093C543 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		43ABC121198F99B60093C543 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		43ABC123198F99BC0093C543 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		43ABC125198F99C10093C543 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		43ABC127198F99C60093C543 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		43ABC129198F99CC0093C543 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		43ABC12B198F99D20093C543 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		43ABC12D198F99DB0093C543 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		43ABC12F198F99E80093C543 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		43ABC131198F99EF0093C543 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		43ABC133198F99F60093C543 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		43ABC135198F99FA0093C543 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		43ABC137198F9A040093C543 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		43ABC139198F9A140093C543 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		43ABC13B198F9A190093C543 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		43ABC13D198F9A200093C543 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		43ABC13F198F9A290093C543 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		43ABC18C198FBD8F0093C543 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		43ABC18D198FBD8F0093C543 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		438B2302198823E800573A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43ABC140198F9A290093C543 /* CoreGraphics.framework in Frameworks */,
+				43ABC13E198F9A200093C543 /* CoreText.framework in Frameworks */,
+				43ABC13C198F9A190093C543 /* CoreTelephony.framework in Frameworks */,
+				43ABC13A198F9A140093C543 /* libz.dylib in Frameworks */,
+				43ABC138198F9A040093C543 /* libsqlite3.dylib in Frameworks */,
+				43ABC136198F99FA0093C543 /* CoreMedia.framework in Frameworks */,
+				43ABC134198F99F60093C543 /* CoreData.framework in Frameworks */,
+				43ABC132198F99EF0093C543 /* MessageUI.framework in Frameworks */,
+				43ABC130198F99E80093C543 /* AudioToolbox.framework in Frameworks */,
+				43ABC12E198F99DB0093C543 /* CoreAudio.framework in Frameworks */,
+				43ABC12C198F99D20093C543 /* AVFoundation.framework in Frameworks */,
+				43ABC12A198F99CC0093C543 /* QuartzCore.framework in Frameworks */,
+				43ABC128198F99C60093C543 /* Accounts.framework in Frameworks */,
+				43ABC126198F99C10093C543 /* CFNetwork.framework in Frameworks */,
+				43ABC124198F99BC0093C543 /* SystemConfiguration.framework in Frameworks */,
+				43ABC122198F99B60093C543 /* iAd.framework in Frameworks */,
+				43ABC120198F99B20093C543 /* AdSupport.framework in Frameworks */,
+				43ABC11E198F99AD0093C543 /* Social.framework in Frameworks */,
+				43ABC11C198F99A90093C543 /* StoreKit.framework in Frameworks */,
+				43ABC11A198F99A40093C543 /* GameKit.framework in Frameworks */,
+				438B232B198853B600573A52 /* libMobileGestalt.dylib in Frameworks */,
+				438B23291988535000573A52 /* libsubstrate.dylib in Frameworks */,
+				438B23271988534100573A52 /* UIKit.framework in Frameworks */,
+				438B230A198823E800573A52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		438B22FB198823E800573A52 = {
+			isa = PBXGroup;
+			children = (
+				438B230B198823E800573A52 /* VBEnhancerLite */,
+				438B2308198823E800573A52 /* Frameworks */,
+				438B2307198823E800573A52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		438B2307198823E800573A52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				438B2306198823E800573A52 /* VBEnhancerLite.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		438B2308198823E800573A52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43ABC13F198F9A290093C543 /* CoreGraphics.framework */,
+				43ABC13D198F9A200093C543 /* CoreText.framework */,
+				43ABC13B198F9A190093C543 /* CoreTelephony.framework */,
+				43ABC139198F9A140093C543 /* libz.dylib */,
+				43ABC137198F9A040093C543 /* libsqlite3.dylib */,
+				43ABC135198F99FA0093C543 /* CoreMedia.framework */,
+				43ABC133198F99F60093C543 /* CoreData.framework */,
+				43ABC131198F99EF0093C543 /* MessageUI.framework */,
+				43ABC12F198F99E80093C543 /* AudioToolbox.framework */,
+				43ABC12D198F99DB0093C543 /* CoreAudio.framework */,
+				43ABC12B198F99D20093C543 /* AVFoundation.framework */,
+				43ABC129198F99CC0093C543 /* QuartzCore.framework */,
+				43ABC127198F99C60093C543 /* Accounts.framework */,
+				43ABC125198F99C10093C543 /* CFNetwork.framework */,
+				43ABC123198F99BC0093C543 /* SystemConfiguration.framework */,
+				43ABC121198F99B60093C543 /* iAd.framework */,
+				43ABC11F198F99B20093C543 /* AdSupport.framework */,
+				43ABC11D198F99AD0093C543 /* Social.framework */,
+				43ABC11B198F99A90093C543 /* StoreKit.framework */,
+				43ABC119198F99A40093C543 /* GameKit.framework */,
+				438B232A198853B600573A52 /* libMobileGestalt.dylib */,
+				438B23281988535000573A52 /* libsubstrate.dylib */,
+				438B23261988534100573A52 /* UIKit.framework */,
+				438B2309198823E800573A52 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B230B198823E800573A52 /* VBEnhancerLite */ = {
+			isa = PBXGroup;
+			children = (
+				438B231F1988241B00573A52 /* AntiCrack */,
+				438B2313198823E800573A52 /* VBEnhancerLite.xm */,
+				438B2314198823E800573A52 /* VBEnhancerLite.mm */,
+				438B230C198823E800573A52 /* Package */,
+				438B2310198823E800573A52 /* Supporting Files */,
+			);
+			path = VBEnhancerLite;
+			sourceTree = "<group>";
+		};
+		438B230C198823E800573A52 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				438B230D198823E800573A52 /* DEBIAN */,
+				438B2316198823E800573A52 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		438B230D198823E800573A52 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				438B230E198823E800573A52 /* control.txt */,
+				438B230F198823E800573A52 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		438B2310198823E800573A52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				438B2311198823E800573A52 /* PackageVersion.plist */,
+				438B2312198823E800573A52 /* VBEnhancerLite-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		438B2316198823E800573A52 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				438B2317198823E800573A52 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		438B2317198823E800573A52 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				438B2318198823E800573A52 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		438B2318198823E800573A52 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				438B2319198823E800573A52 /* VBEnhancerLite.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+		438B231F1988241B00573A52 /* AntiCrack */ = {
+			isa = PBXGroup;
+			children = (
+				43ABC18C198FBD8F0093C543 /* MBProgressHUD.h */,
+				43ABC18D198FBD8F0093C543 /* MBProgressHUD.m */,
+				438B23241988244700573A52 /* DecFile.h */,
+			);
+			name = AntiCrack;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		438B2303198823E800573A52 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43ABC18E198FBD8F0093C543 /* MBProgressHUD.h in Headers */,
+				438B23251988244700573A52 /* DecFile.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		438B2305198823E800573A52 /* VBEnhancerLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438B231C198823E800573A52 /* Build configuration list for PBXNativeTarget "VBEnhancerLite" */;
+			buildPhases = (
+				438B2300198823E800573A52 /* ShellScript */,
+				438B2301198823E800573A52 /* Sources */,
+				438B2302198823E800573A52 /* Frameworks */,
+				438B2303198823E800573A52 /* Headers */,
+				438B2304198823E800573A52 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VBEnhancerLite;
+			productName = VBEnhancer;
+			productReference = 438B2306198823E800573A52 /* VBEnhancerLite.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		438B22FC198823E800573A52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 438B22FF198823E800573A52 /* Build configuration list for PBXProject "VBEnhancerLite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 438B22FB198823E800573A52;
+			productRefGroup = 438B2307198823E800573A52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				438B2305198823E800573A52 /* VBEnhancerLite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		438B2300198823E800573A52 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp-logos";
+		};
+		438B2304198823E800573A52 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		438B2301198823E800573A52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438B2315198823E800573A52 /* VBEnhancerLite.mm in Sources */,
+				43ABC18F198FBD8F0093C543 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		438B231A198823E800573A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		438B231B198823E800573A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		438B231D198823E800573A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VBEnhancerLite/VBEnhancerLite-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+					"$(PROJECT_DIR)//VBEnhancerLite/Source/MobileBuilderResources/Admob",
+					"$(PROJECT_DIR)//VBEnhancerLite/Source/MobileBuilderResources/Chartboost",
+					"$(PROJECT_DIR)/VBEnhancerLite/PayPalMobile",
+				);
+				PRODUCT_NAME = VBEnhancerLite;
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		438B231E198823E800573A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VBEnhancerLite/VBEnhancerLite-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+					"$(PROJECT_DIR)//VBEnhancerLite/Source/MobileBuilderResources/Admob",
+					"$(PROJECT_DIR)//VBEnhancerLite/Source/MobileBuilderResources/Chartboost",
+					"$(PROJECT_DIR)/VBEnhancerLite/PayPalMobile",
+				);
+				PRODUCT_NAME = VBEnhancerLite;
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		438B22FF198823E800573A52 /* Build configuration list for PBXProject "VBEnhancerLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438B231A198823E800573A52 /* Debug */,
+				438B231B198823E800573A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		438B231C198823E800573A52 /* Build configuration list for PBXNativeTarget "VBEnhancerLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438B231D198823E800573A52 /* Debug */,
+				438B231E198823E800573A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 438B22FC198823E800573A52 /* Project object */;
+}
